@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""
-task 0
+""" BaseCaching module
 """
 from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
     """
-    class BasicCache that inherits from BaseCaching and is a caching system
+    Defines a class for caching information in key-value pairs
+    Methods:
+        put(key, item) - store a key-value pair
+        get(key) - retrieve the value associated with a key
     """
 
     def __init__(self):
